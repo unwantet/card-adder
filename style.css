@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-element {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(97, 72, 53);
+    display: flex;
+    row-gap: 3px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:solid 1px black;
+    border-radius:12px;
+}
+
+.input {
+    padding: 10px 30px;
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    color:rgb(72, 238, 72);
+}
+.input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.btn-add {
+    width: 250px;
+    height: 35px;
+    background-color: cornflowerblue;
+    color: rgb(95, 95, 199);
+    font-weight: 900;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: black;
+    transition: 0.4s all ease;    
+}
+    
+.card-wrapper {
+    margin: 20px auto;
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 20px;
+    background-color: antiquewhite;
+    border:solid 1px black;
+    border-radius: 12px;
+    padding: 25px;
+    display: none;
+}
+
+.card {
+    width: 300px;
+    height: 100%;
+    background-color: brown;
+    border:solid 1px black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items:center;
+}
+
+.card-title {
+    font-size: 30px;
+    font-family: sans-serif;
+    color:rgb(44, 44, 71);
+}
+
+.cart-images {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+.btn-edit {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(104, 104, 173);
+    border:solid 1px black;
+    border-radius:10px;
+    color:rgb(44, 44, 71);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.btn-delete {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(104, 104, 173);
+    border:solid 1px black;
+    border-radius:10px;
+    color:rgb(44, 44, 71);
+    font-family: sans-serif;
+    cursor: pointer;
+}
